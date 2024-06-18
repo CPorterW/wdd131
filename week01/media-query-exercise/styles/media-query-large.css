@@ -1,0 +1,22 @@
+/* Media Query for Wider Viewports */
+@media screen and (min-width: 500px) {
+    header {
+      background-color: #000;
+      color: #fff;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    #section1 {
+      grid-row: 1/3;
+      grid-column: 1/2;
+    }
+    
+    #section2 {
+      grid-row: 1/3;
+      grid-column: 2/3;
+    }
+  }
