@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Album</title>
+  <meta name="description" content="A picture album of temples">
+  <meta name="author" content="Your Name">
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-medium.css">
+  <link rel="stylesheet" href="styles/temples-large.css">
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Temple Album</h1>
+    <button id="menuButton" aria-label="Open Menu">&#9776;</button>
+  </header>
+  <nav>
+    <ul id="menuItems" class="hidden">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Old</a></li>
+      <li><a href="#">New</a></li>
+      <li><a href="#">Large</a></li>
+      <li><a href="#">Small</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Home</h2>
+    <div class="grid">
+      <figure>
+        <img src="./images/bountiful.jpeg" alt="Bountiful">      
+        <figcaption>Bountiful</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/gilbert.jpeg" alt="Gilbert">
+        <figcaption>Gilbert</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/idaho-falls.jpeg" alt="Idaho Falls">
+        <figcaption>Idaho Falls</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/kirtland.avif" alt="Kirtland">
+        <figcaption>Kirtland</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/mesa.jpeg" alt="Mesa">
+        <figcaption>Mesa</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/provo.jpeg" alt="Provo">
+        <figcaption>Provo</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/rexburg.jpeg" alt="Rexburg">
+        <figcaption>Rexburg</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/salt-lake.jpeg" alt="Salt Lake">
+        <figcaption>Salt Lake</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/seattle.jpeg" alt="Seattle">  
+        <figcaption>Seattle</figcaption>
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Porter Williams, WA/USA</p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/temples.js"></script>
+</body>
+</html>

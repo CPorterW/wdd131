@@ -1,0 +1,13 @@
+@media screen and (min-width: 440px) {
+    #menuButton {
+      display: none;
+    }
+  
+    #menuItems {
+      display: flex;
+      position: static;}
+  
+    .grid {
+      grid-template-columns: repeat(2, minmax(200px, 1.5fr));
+    }
+  }
