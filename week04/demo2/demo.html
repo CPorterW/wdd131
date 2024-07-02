@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table class="feature-comparison">
+        <thead>
+            <caption class="head">ACME Wildwest Services</caption>
+          <tr>
+            <th></th>
+            <th>Basic</th>
+            <th>Premium</th>
+            <th>Deluxe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Feature 1</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Feature 2</td>
+            <td>✗</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Feature 3</td>
+            <td>✗</td>
+            <td>✗</td>
+            <td>✓</td>
+          </tr>
+        </tbody>
+        <tfoot><caption>Table 1: Account Feature Comparison</caption></tfoot>
+      </table>
+</body>
+</html>
+<style>
+  .feature-comparison {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .feature-comparison caption {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .feature-comparison th, .feature-comparison td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .feature-comparison thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  .feature-comparison tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .feature-comparison tbody td:first-child {
+    text-align: left;
+    font-weight: bold;
+  }</style>
