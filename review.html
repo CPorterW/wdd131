@@ -1,0 +1,41 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    let reviewCount = localStorage.getItem('reviewCount') || 0;
+    reviewCount = parseInt(reviewCount) + 1;
+    localStorage.setItem('reviewCount', reviewCount);
+    document.getElementById('reviewCount').textContent = reviewCount;
+});
+</script>
+<style>
+    figure{
+        background-color: #ddd;
+        padding: 20px;
+        padding-top: 85px;
+        border-radius: 5px;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 25vh;
+        min-height: 190px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+    h1{
+        font-size: 40px;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <figure>
+        <h1>Thanks for your review!</h1>
+        <p>Science appreciates your generosity.</p>
+    </figure>
+</body>
+</html>
