@@ -13,14 +13,14 @@
     <h1>Product Review</h1>
     <form method="get" action="review.html">
         <div>
-            <label for="product">Product Name:</label>
+            <label for="product"><span class="asterisk">*</span>Product Name:</label>
             <select id="product" name="product" required>
                 <option value="" disabled selected>Select a Product ...</option>
             </select>
         </div>
 
         <div>
-            <label>Overall Rating:</label>
+            <label><span class="asterisk">*</span>Overall Rating:</label>
             <div class="rating">
                 <input type="radio" id="star5" name="rating" value="5" required/>
                 <label for="star5" title="5 stars">☆</label>
@@ -34,9 +34,9 @@
                 <label for="star1" title="1 star">☆</label>
             </div>
         </div>
-
         <div>
-            <label for="installation-date">Date of Installation:</label>
+        <div id="date-div">
+            <label for="installation-date"><span class="asterisk">*</span>Date of Installation:</label></div>
             <input type="date" id="installation-date" name="installation-date" required>
         </div>
 
@@ -63,7 +63,9 @@
             <label for="username">User Name:</label>
             <input type="text" id="username" name="username">
         </div>
-
+        <div>
+            <p class="asterisk">* Field is required.</p>
+        </div>
         <div>
             <input type="submit" value="Review Our Product">
         </div>

@@ -6,6 +6,9 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+.asterisk{
+    color: red;
+}
 form {
     background-color: #f4f4f4;
     padding: 20px;
