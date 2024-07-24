@@ -6,21 +6,74 @@
     <meta name="description" content="A small collection of media created by members of the Church of Jesus Christ of Latter-Day Saints, to which I belong.">
     <meta name="author" content="Porter Williams">
     <link rel="stylesheet" href="styles/master.css">
+    <script src="scripts/master.js" defer></script>
     <title>Our Media</title>
 </head>
 <body>
     <header>
-        <img src="images/christus-statue-logo.webp" alt="A sillouhette of the Church's logo, the Christus" class="logo">
-        <figure>
+        <img loading="lazy" src="images/christus-statue-logo.webp" alt="A sillouhette of the Church's logo, the Christus" class="logo">
+        <div class="header-content">
             <h1>About</h1>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="httds.html">History that Doesn't Suck</a>
+                <a href="htds.html">History that Doesn't Suck</a>
                 <a href="aom.html">Art of Manliness</a>
                 <a href="osc.html">Ender's Game</a>
                 <a href="about.html">About</a>
             </nav>
-        </figure>
+        </div>
     </header>
+    <main>
+        
+        <h2>My idea of an open-ended school project</h2>
+        <p>I made this for a web development final as a sophomore at BYUI. 
+            The assignment was to create a website that is interesting
+            or useful, so naturally I created something that is interesting
+            to me, but probably not interesting to anyone else. 
+        </p>
+        <h2>Porter Williams</h2>
+        <p>That's my name! No, I'm not named after a short, squeaky,
+            bad-A gunslinging bodyguard in our history, but I am named 
+            after my patriarch grandfather and great-grandfather, 
+            which in my estimation, is just as cool. I am married to the
+            illustrious Danielle Williams who is pregnant with the equally
+            illustrious Hudson C Williams. I am a software engineer-in-training 
+            living in sunny Arizona. I believe that we are
+            made to be happy, that we will be happy, and that worshipping
+            God is our quickest path to supreme happiness. 
+        </p>
+        <h2>A disclaimer</h2>
+        <p>
+            Nothing I or any of the writers I've linked are official 
+            spokespeople of the church, except for the links to the 
+            official church website. I should also mention that polygamy 
+            is strictly forbidden by a prophet of God and that practicing
+            polygamy or teaching others to do so is grounds for 
+            immediate excommunication. I empathize with those who haven't
+            accepted every church policy. The friction between  
+            doctrines and the cultures that surround us can be like 
+            sandpaper on the heart. Fortunately, God is merciful, and 
+            I believe He forgives us for yielding to external cultures sometimes.
+        </p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <aside id="visit-counter"></aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our Media. All rights reserved.</p>
+    </footer>
 </body>
 </html>
